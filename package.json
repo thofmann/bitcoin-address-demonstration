@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin-address-demonstration",
+  "version": "1.0.0",
+  "description": "Demonstrating how to create a P2PKH Bitcoin address",
+  "main": "index.js",
+  "author": {
+    "name": "Trevin Hofmann",
+    "email": "trevinhofmann@gmail.com"
+  },
+  "dependencies": {
+    "bs58": "^3.0.0",
+    "eccrypto": "^1.0.2"
+  }
+}
