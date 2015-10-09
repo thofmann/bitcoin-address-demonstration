@@ -56,6 +56,7 @@ var address = Buffer.concat([version, hash, checksum]);
 console.log(address);
 
 var bs58 = require('bs58');
+
 address = bs58.encode(address);
 
 console.log(address);
